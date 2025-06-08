@@ -1,0 +1,87 @@
+body {
+	background-color: #111;
+	font-family: "Kalam", sans-serif;
+	font-style: normal;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+}
+
+.postcard {
+	background-color: white;
+	width: 500px;
+	padding: 25px;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.postcard-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.postcard-header h1 {
+	font-size: 32px;
+	margin: 0;
+}
+
+.postcard-header img {
+	width: 60px;
+}
+
+.postcard-body {
+	display: flex;
+	justify-content: space-between;
+	gap: 20px;
+}
+
+.body-left {
+	width: 50%;
+	font-size: 18px;
+	line-height: 1.4;
+}
+
+.body-left p {
+	margin: 10px 0;
+}
+
+.body-right {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.body-right input {
+	border: none;
+	border-bottom: 1px solid #666;
+	background: transparent;
+	padding: 5px;
+	font-family: "Kalam", sans-serif;
+	font-style: normal;
+	font-size: 16px;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+
+button {
+	font-family: "Kalam", sans-serif;
+	font-style: normal;
+	padding: 8px 20px;
+	background-color: #ccc;
+	border: 1px outset #ccc;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+	cursor: pointer;
+	font-size: 16px;
+}
+button:active {
+	border: 2px inset #aaa;
+	box-shadow: none;
+}
